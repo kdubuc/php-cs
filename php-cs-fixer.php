@@ -8,40 +8,40 @@ $finder = Finder::create()->in(getcwd());
 
 // Set of rules
 $rules = [
-    'psr_autoloading'        => true,
-    '@PSR1'                  => true,
-    '@PSR2'                  => true,
-    '@Symfony'               => true,
-    '@Symfony:risky'         => true,
-    '@PHP71Migration'        => true,
-    'binary_operator_spaces' => [
+    'psr_autoloading'                  => true,
+    '@PSR1'                            => true,
+    '@PSR2'                            => true,
+    '@Symfony'                         => true,
+    '@Symfony:risky'                   => true,
+    '@PHP71Migration'                  => true,
+    'binary_operator_spaces'           => [
         'operators' => [
             '=>' => 'align',
             '='  => 'align',
         ],
     ],
-    'array_syntax' => [
+    'array_syntax'                     => [
         'syntax' => 'short',
     ],
     'combine_consecutive_unsets'       => true,
     'general_phpdoc_annotation_remove' => [
         'annotations' => ['param', 'return'],
     ],
-    'is_null'                     => true,
-    'yoda_style'                  => true,
-    'linebreak_after_opening_tag' => true,
-    'list_syntax'                 => [
+    'is_null'                          => true,
+    'yoda_style'                       => true,
+    'linebreak_after_opening_tag'      => true,
+    'list_syntax'                      => [
         'syntax' => 'short',
     ],
-    'mb_str_functions' => true,
-    'ordered_imports'  => [
+    'mb_str_functions'                 => true,
+    'ordered_imports'                  => [
         'sort_algorithm' => 'length',
     ],
-    'return_type_declaration' => [
+    'return_type_declaration'          => [
         'space_before' => 'one',
     ],
-    'semicolon_after_instruction' => true,
-    'error_suppression'           => false,
+    'semicolon_after_instruction'      => true,
+    'error_suppression'                => false,
 ];
 
 return (new Config())

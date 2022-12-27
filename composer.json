@@ -4,5 +4,8 @@
     "require": {
         "php": "^7.3 || ^8.0",
         "friendsofphp/php-cs-fixer": "^3.0"
+    },
+    "scripts": {
+        "fix-cs": "php vendor/bin/php-cs-fixer fix --config=php-cs-fixer.php"
     }
 }
