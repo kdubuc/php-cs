@@ -24,9 +24,6 @@ $rules = [
         'syntax' => 'short',
     ],
     'combine_consecutive_unsets'       => true,
-    'general_phpdoc_annotation_remove' => [
-        'annotations' => ['param', 'return'],
-    ],
     'is_null'                          => true,
     'yoda_style'                       => true,
     'linebreak_after_opening_tag'      => true,
@@ -44,10 +41,15 @@ $rules = [
     'error_suppression'                => false,
     'phpdoc_to_comment'                => [
         'ignored_tags' => [
+            'var',
+            'return',
+            'param',
             'property',
             'property-read',
             'property-write',
             'method',
+            'deprecated',
+            'internal',
         ],
     ],
 ];
