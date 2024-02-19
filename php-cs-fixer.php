@@ -44,15 +44,10 @@ $rules = [
     'error_suppression'                => false,
     'phpdoc_to_comment'                => [
         'ignored_tags' => [
-            'var',
-            'return',
-            'param',
             'property',
             'property-read',
             'property-write',
             'method',
-            'deprecated',
-            'internal',
         ],
     ],
 ];
