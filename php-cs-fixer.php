@@ -16,8 +16,7 @@ $rules = [
     '@PHP71Migration'                  => true,
     'binary_operator_spaces'           => [
         'operators' => [
-            '=>' => 'align',
-            '='  => 'align',
+            '=' => 'align',
         ],
     ],
     'array_syntax'                     => [
