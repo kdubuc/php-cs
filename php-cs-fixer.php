@@ -14,6 +14,7 @@ $rules = [
     '@Symfony'                         => true,
     '@Symfony:risky'                   => true,
     '@PHP71Migration'                  => true,
+    'self_accessor'                    => false,
     'binary_operator_spaces'           => [
         'operators' => [
             '=' => 'align',
